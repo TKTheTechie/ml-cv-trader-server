@@ -1,0 +1,36 @@
+{
+  "name": "ml-trader-server",
+  "version": "1.0.0",
+  "description": "Server-side process for the cv-ml-trader app",
+  "exports": "./index.js",
+  "scripts": {
+    "serve": "nodemon server.ts",
+    "tsc": "tsc",
+    "start:prod": "node build/server.js"
+  },
+  "keywords": [
+    "ml",
+    "cv",
+    "tensorflow"
+  ],
+  "author": "TKTheTechie",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/loglevel": "^1.6.3",
+    "@types/pino": "^7.0.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-pino-logger": "^7.0.0",
+    "pino": "^7.6.5",
+    "pino-pretty": "^7.5.1",
+    "prettier": "^2.5.1",
+    "solclientjs": "^10.9.0",
+    "stormdb": "^0.5.2"
+  }
+}
