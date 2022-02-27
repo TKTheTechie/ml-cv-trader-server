@@ -23,7 +23,7 @@ export class DBWriter {
   private db = new StormDB(this.engine);
 
   constructor() {
-    this.db.default({});
+    this.db.default({leaderboard:[]});
   }
 
   public getLeaderBoard(numberOfEntries: number): LeaderEntry[] {

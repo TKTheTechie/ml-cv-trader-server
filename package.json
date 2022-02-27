@@ -4,9 +4,9 @@
   "description": "Server-side process for the cv-ml-trader app",
   "exports": "./index.js",
   "scripts": {
-    "serve": "nodemon server.ts",
-    "tsc": "tsc",
-    "start:prod": "node build/server.js"
+    "serve": "nodemon src/server.ts",
+    "build": "tsc -p .",
+    "start": "node build/src/server.js"
   },
   "keywords": [
     "ml",
