@@ -41,4 +41,4 @@ npm run start:prod
 ```
 
 ## Running the server side component
-A svelte js ui component is required for this demo -  ml-cv-trader-ui. Visit the repo to setup and run.
+A svelte js ui component is required for this demo -  [ml-cv-trader-ui](https://github.com/tkthetechie/ml-cv-trader-ui). Visit the repo to setup and run.
